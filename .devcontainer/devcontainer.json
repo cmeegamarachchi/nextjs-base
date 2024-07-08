@@ -1,0 +1,26 @@
+{
+	"name": "NextJS starter",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"workbench.iconTheme": "material-icon-theme",
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[javascript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"git.openRepositoryInParentFolders": "always"
+			},
+			"extensions": [
+				"PKief.material-icon-theme",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	}
+}
