@@ -1,1 +1,1 @@
-# my commands
+sudo npm --global upgrade yarn
